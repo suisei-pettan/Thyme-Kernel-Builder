@@ -11,28 +11,28 @@
     "toolchains": [
       {
         "url": "https://yagoo.xn--ujqyjt8y32c5tfri2791a.xyz/ClangBuiltLinux.tar.gz",
-        "name": "proton-clang",
+        "name": "ClangBuiltLinux",
         "binPath": ["bin"]
       }
     ],
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
+      "CC": "ClangBuiltLinux/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "LD": "proton-clang/bin/ld.lld",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+        "CROSS_COMPILE": "ClangBuiltLinux/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "ClangBuiltLinux/bin/arm-linux-gnueabi-",
+        "LD": "ClangBuiltLinux/bin/ld.lld",
+        "AR": "ClangBuiltLinux/bin/llvm-ar",
+        "NM": "ClangBuiltLinux/bin/llvm-nm",
+        "OBJCOPY": "ClangBuiltLinux/bin/llvm-objcopy",
+        "OBJDUMP": "ClangBuiltLinux/bin/llvm-objdump",
+        "READELF": "ClangBuiltLinux/bin/llvm-readelf",
+        "OBJSIZE": "ClangBuiltLinux/bin/llvm-size",
+        "STRIP": "ClangBuiltLinux/bin/llvm-strip",
+        "LDGOLD": "ClangBuiltLinux/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "ClangBuiltLinux/bin/llvm-ar",
+        "LLVM_DIS": "ClangBuiltLinux/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
