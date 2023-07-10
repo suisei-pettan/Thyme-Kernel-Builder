@@ -10,16 +10,10 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "url": "https://github.com/utziacre/tc-build/releases/download/20230708/ClangBuiltLinux.tar.xz",
         "name": "proton-clang",
         "binPath": ["bin"]
-      },
-    {
-      "url": "https://ftp.lip6.fr/pub/gcc/releases/gcc-12.2.0/gcc-12.2.0.tar.gz",
-      "name": "gcc",
-      "binPath": ["bin"]
-    }
+      }
     ],
     "ccache": true,
     "params": {
