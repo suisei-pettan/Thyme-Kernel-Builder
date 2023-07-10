@@ -10,7 +10,7 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "url": "http://45.79.56.248:36078/down/Jvdd0lyOYG6s.gz",
+        "url": "https://yagoo.xn--ujqyjt8y32c5tfri2791a.xyz/ClangBuiltLinux.tar.gz",
         "name": "proton-clang",
         "binPath": ["bin"]
       }
